@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url("/images/airplane.jpg");
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    max-width: 80%;
+    background-color: #D4DDE3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 50% auto;
+}
+
+h1 {
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    text-shadow: 1px 1px rgb(250, 250, 250);
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: black;
+    text-shadow: 2px 2px #D4DDE3;
+}
+
+button {
+    border-bottom: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #e14d81;
+}
+
+#reset-btn {
+    background: rgb(0, 0, 0);
+}
+
+#save-btn {
+    background: #034E76;
+}
+
+#save-el {
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+    margin-top: 50px;
+    max-width: 300px;
+}
